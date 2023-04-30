@@ -103,8 +103,8 @@ else
     send_error_message "The user \"$username\" doesn't exist!"
 fi
 
-read -p "Please, input your media folder [/srv/media]: " media_folder
-media_folder=${media_folder:-"/srv/media"}
+read -p "Please, input your media folder [mnt/nfs_media]: " media_folder
+media_folder=${media_folder:-"mnt/nfs_media"}
 
 # Checking that the media folder exists
 
