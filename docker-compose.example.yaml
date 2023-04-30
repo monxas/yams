@@ -75,7 +75,7 @@ services:
       - PUID=<your_PUID>
       - PGID=<your_PGID>
     volumes:
-      - <media_folder>/music:/music
+      - <media_folder>/musica:/music
       - <media_folder>/descargas:/downloads
       - <install_location>/config/lidarr:/config
     ports:
